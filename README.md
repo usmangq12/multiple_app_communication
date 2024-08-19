@@ -10,29 +10,31 @@ Dynamic UI Component Loading: The application can load UI components dynamically
 Inter-Application Communication: Dynamically loaded applications can interact with each other using Redux, without the need for direct communication, facilitating a modular and decoupled architecture.
 Getting Started
 
-## Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/usmangq12/multiple_app_communication.git
-cd multiple_app_communication
-Install dependencies::
+### Installation
 
-bash
-Copy code
-npm install
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/usmangq12/unibox.git](https://github.com/usmangq12/multiple_app_communication.git
+   cd multiple_app_communication
+   ```
+
+2. **Install dependencies:**:
+   ```bash
+   npm install
+   ```
 
 ## Running the Application
-Start the development server:
 
-bash
-Copy code
-npm  run start 
-Open your browser and navigate to:
+1. **Start the development server:**
+   ```bash
+   npm install start 
+   ```
+2. **Open your browser and navigate to**
+   ```bash
+   http://localhost:3000
+   ```
 
-bash
-Copy code
-http://localhost:3000
 Configuration
 
 
