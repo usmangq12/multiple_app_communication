@@ -42,14 +42,14 @@ const App = () => {
 
   return (
     <Provider store={mainStore}>
-      <Suspense fallback={<Loader />}>
       <div className="flex justify-center flex-col ">
         <Dropdown handleSelectionChange={handleSelectionChange} />
         <div className="flex">
-          <Component className="flex-1" />
+          <Suspense fallback={<Loader />}>
+            <Component className="flex-1" />
+          </Suspense>
         </div>
-        </div>
-      </Suspense>
+      </div>
     </Provider>
   );
 };
