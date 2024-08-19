@@ -44,7 +44,7 @@ const ProfileFormV1 = () => {
   };
 
   return (
-    <div className="bg-white h-screen w-scren flex justify-center items-center">
+    <div className="bg-white h-screen w-full flex justify-center items-center">
       <div className="shadow-2xl flex  flex-col w-4/5 sm:w-3/5 xl:w-2/5 p-4">
         <div className="p-4 flex flex-col ">
           <h3 className="text-left font-bold text-xl text-black mb-2 	">

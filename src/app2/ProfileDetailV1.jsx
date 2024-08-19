@@ -6,7 +6,7 @@ const ProfileDetailV1 = () => {
   const profileDetail = useSelector((state) => state.auth.userDetailV1);
 
   return (
-    <div className="bg-white h-screen w-scren flex justify-center items-center">
+    <div className="bg-white h-screen w-full flex justify-center items-center">
       <div className="shadow-2xl flex  flex-col w-4/5 sm:w-3/5 xl:w-2/5">
         <div className="p-4 bg-gradient-to-r from-gray-500 to-gray-800 h-14 opacity-30"></div>
         <div className="p-4 flex flex-col">

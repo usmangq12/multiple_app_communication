@@ -128,7 +128,7 @@ export default function FlowDiagram() {
   );
 
   return (
-    <div className="w-full h-screen fixed top-9">
+    <div className="w-full h-screen fixed top-24">
       <ReactFlow
         nodes={nodes}
         edges={edges}
